@@ -2,11 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-
-.naturaleza{
-    width: 100vw;
-    opacity: 0.5;
-}
 .naturaleza:hover{
     opacity: 1;
 }
@@ -17,9 +12,5 @@
 }
 
 .img-galeria{
-    width: 150px;
-}
-.img-galeria:hover{
-    opacity: 0.3;
-    cursor: pointer;
+    width: 300px;
 }
