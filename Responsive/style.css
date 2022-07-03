@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.contenedor{
+    background-color: darkgoldenrod;
+    display: flex;
+    gap: 0.5rem;
+
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: aqua;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.items{
+    flex-grow: 1 ;
+    border: 1px solid black;
+}
+
+@media (max-width:640px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+}
